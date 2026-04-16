@@ -1,0 +1,34 @@
+/* Name styling */
+.my-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Divider */
+.divider {
+    height: 2px;
+    background-color: #0868ac;
+}
+
+/* Global text + heading + image layout */
+img, p, h1, h2 {
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image styling */
+img {
+    display: block;
+    padding: 15px 0px;
+}
+
+/* Second image must be wider than 640px */
+.wide-image {
+    max-width: 800px;
+    width: 100%;
+}
