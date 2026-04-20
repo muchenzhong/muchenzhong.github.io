@@ -9,21 +9,18 @@ body {
   color: #222222;
 }
 
-/* Big opening section */
+/* Hero section */
 .hero {
   background-image: url("images/background.png");
   background-size: 100% auto;
   background-position: center 125%;
   background-repeat: no-repeat;
-
   height: 80vh;
   min-height: 420px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
   text-align: center;
   padding: 95px 20px 30px 20px;
   box-sizing: border-box;
@@ -52,9 +49,9 @@ body {
 }
 
 /* Main content width */
-img, p, h2, .divider {
+img, p, h2, .divider, .quote-block {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -62,6 +59,8 @@ img, p, h2, .divider {
 
 img {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px 12px;
 }
 
@@ -80,16 +79,53 @@ h2 {
 }
 
 .intro {
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
+/* Quote section */
+.quote-block {
+  margin-top: 28px;
+  margin-bottom: 12px;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.quote-author {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 0;
+}
+
+.quote-title {
+  font-style: italic;
+}
+
+/* Divider line */
 .divider {
-  height: 2px;
+  height: 4px;
   background-color: #5A3E2B;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
+/* Links */
+a {
+  color: #8B2E1E;
+}
+
+a:hover {
+  color: #5A3E2B;
+}
+
+/* References section */
 .references-section {
   background-color: #210c00;
   padding: 30px 0;
@@ -99,7 +135,7 @@ h2 {
 .references-section h2,
 .references-section p {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -108,6 +144,15 @@ h2 {
   color: white;
 }
 
+.references-section a {
+  color: #f0d2b6;
+}
+
+.references-section a:hover {
+  color: #ffffff;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .hero {
     background-size: contain;
@@ -129,5 +174,23 @@ h2 {
     line-height: 1.3;
     margin-top: 8px;
     max-width: 90%;
+  }
+
+  .quote {
+    font-size: 20px;
+  }
+
+  .quote-author {
+    font-size: 16px;
+  }
+
+  img,
+  p,
+  h2,
+  .divider,
+  .quote-block,
+  .references-section h2,
+  .references-section p {
+    max-width: 100%;
   }
 }
