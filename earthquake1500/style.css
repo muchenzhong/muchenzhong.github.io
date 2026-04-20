@@ -6,7 +6,7 @@ body {
 
 /* Big opening section */
 .hero {
-  background-image: url("images/background.jpg");
+  background-image: url("images/background.png");
   background-size: 100% auto;
   background-position: center 125%;
   background-repeat: no-repeat;
