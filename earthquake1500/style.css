@@ -1,34 +1,82 @@
-/* Name styling */
-.my-name {
-    font-size: 28px;
-    font-weight: bold;
-    color: darkblue;
-    font-family: Arial, sans-serif;
-    margin-bottom: 10px;
+body {
+  background-color: white;
+  margin: 0;
+  color: #222222;
 }
 
-/* Divider */
-.divider {
-    height: 2px;
-    background-color: #0868ac;
+/* Big opening section */
+.hero {
+  background-image: url("images/background.jpg");
+  background-size: 100% auto;
+  background-position: center 125%;
+  background-repeat: no-repeat;
+
+  height: 80vh;
+  min-height: 420px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  text-align: center;
+  padding: 95px 20px 30px 20px;
+  box-sizing: border-box;
 }
 
-/* Global text + heading + image layout */
-img, p, h1, h2 {
-    width: 100%;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
+.hero h1 {
+  font-size: 56px;
+  margin: 0;
+  color: white;
+  background-color: transparent;
+  padding: 0;
 }
 
-/* Image styling */
+.hero-subtitle {
+  font-size: 24px;
+  line-height: 1.4;
+  color: white;
+  margin-top: 12px;
+  background-color: transparent;
+  padding: 0;
+  max-width: 900px;
+}
+
+/* Main content width */
+img, p, h2, .divider {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
 img {
-    display: block;
-    padding: 15px 0px;
+  display: block;
+  padding: 15px 12px;
 }
 
-/* Second image must be wider than 640px */
-.wide-image {
-    max-width: 800px;
-    width: 100%;
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+h2 {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  margin-top: 32px;
+}
+
+.divider {
+  height: 2px;
+  background-color: #0868ac;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
