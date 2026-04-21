@@ -13,7 +13,7 @@ body {
 .hero-image {
   background-image: url("images/background.png");
   background-size: 100% auto;
-  background-position: center 115%;
+  background-position: center 125%;
   background-repeat: no-repeat;
   height: 55vh;
   min-height: 320px;
@@ -26,7 +26,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  padding: 24px 12px 10px 12px;
+  padding: 6px 12px 10px 12px;
   box-sizing: border-box;
 }
 
@@ -39,7 +39,7 @@ body {
   background-color: transparent;
   padding: 0;
   letter-spacing: 1px;
-  word-spacing: -8px;
+  word-spacing: -15px;
   text-transform: uppercase;
 }
 
