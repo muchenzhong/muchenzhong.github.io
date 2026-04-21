@@ -42,9 +42,13 @@ body {
   max-width: 1000px;
 }
 
+.headline-red {
+  color: #9E1B1B;
+}
+
 .hero-subtitle {
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.35;
   color: #8B6B4A;
   margin-top: 12px;
