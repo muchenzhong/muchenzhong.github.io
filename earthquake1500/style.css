@@ -9,29 +9,26 @@ body {
   color: #222222;
 }
 
-/* Top image only */
-.hero-image {
+/* Hero section with text over image */
+.hero {
   background-image: url("images/background.png");
   background-size: 100% auto;
   background-position: center 120%;
   background-repeat: no-repeat;
-  height: 60vh;
-  min-height: 320px;
-  width: 100%;
-  margin-bottom: 0;
-}
+  height: 80vh;
+  min-height: 420px;
 
-/* Text below image */
-.hero-text {
-  width: 100%;
-  max-width: 1000px;
-  margin: -6px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   text-align: center;
-  padding: 4px 12px 10px 12px;
+
+  padding: 95px 20px 30px 20px;
   box-sizing: border-box;
 }
 
-.hero-text h1 {
+.hero h1 {
   font-family: "ChildrenAmongLionsRegular-eDJm", serif;
   font-size: 78px;
   line-height: 1.05;
@@ -42,6 +39,7 @@ body {
   letter-spacing: 1px;
   word-spacing: -15px;
   text-transform: uppercase;
+  max-width: 1000px;
 }
 
 .hero-subtitle {
@@ -53,6 +51,7 @@ body {
   margin-bottom: 22px;
   background-color: transparent;
   padding: 0;
+  max-width: 900px;
 }
 
 .hero-byline {
@@ -175,19 +174,16 @@ a:hover {
 
 /* Mobile */
 @media (max-width: 768px) {
-  .hero-image {
+  .hero {
     background-size: contain;
     background-position: center 30%;
     background-repeat: no-repeat;
-    height: 38vh;
-    min-height: 220px;
+    height: 70vh;
+    min-height: 320px;
+    padding: 40px 16px 20px 16px;
   }
 
-  .hero-text {
-    padding: 18px 16px 8px 16px;
-  }
-
-  .hero-text h1 {
+  .hero h1 {
     font-size: 50px;
     line-height: 1.08;
     letter-spacing: 1px;
@@ -199,6 +195,7 @@ a:hover {
     line-height: 1.3;
     margin-top: 8px;
     margin-bottom: 18px;
+    max-width: 90%;
   }
 
   .hero-byline {
