@@ -13,20 +13,21 @@ body {
 .hero-image {
   background-image: url("images/background.png");
   background-size: 100% auto;
-  background-position: center 125%;
+  background-position: center 120%;
   background-repeat: no-repeat;
-  height: 55vh;
+  height: 60vh;
   min-height: 320px;
   width: 100%;
+  margin-bottom: 0;
 }
 
 /* Text below image */
 .hero-text {
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: -6px auto 0 auto;
   text-align: center;
-  padding: 6px 12px 10px 12px;
+  padding: 4px 12px 10px 12px;
   box-sizing: border-box;
 }
 
