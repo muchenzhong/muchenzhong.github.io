@@ -44,7 +44,7 @@ body {
 
 .hero-subtitle {
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 1.35;
   color: #8B6B4A;
   margin-top: 12px;
@@ -134,6 +134,13 @@ h2 {
   background-color: #5A3E2B;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.first-divider {
+  height: 1.5px;
+  width: 80%;
+  max-width: 500px;
+  margin: 24px auto;
 }
 
 /* Links */
